@@ -2,7 +2,7 @@
 
 layout: home
 title: "# Web Advanced: Javascript, 2018"
-location: Parsons
+location: "# Fridays, 12:10pm - 2:50pm<br>Parsons 2 W 13th"
 email: "# eigll343@newschool.edu"
 
 ---
