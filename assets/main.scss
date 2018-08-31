@@ -8,7 +8,7 @@
 }
 
 html{
-	background-color: yellow;
+	background-color: black;
 }
 
 
@@ -17,17 +17,69 @@ body{
 	font-family: 'EB Garamond', serif;
 	text-align: center;
 	color: black;
-	padding-top: 2rem;
 }
 
 h1, h2, h3, h4, h5, h6, p{
 	font-size: 2rem;
 }
 
-a{
-	background-color: blue;
+a, em{
+	background-color: maroon;
 	color: white;
+	font-style: normal;
 	padding-left: 0.5rem;
 	padding-right: 0.5rem;
 	text-decoration: none;
+	cursor: pointer;
+}
+
+.syllabus{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.menu{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	padding-top: 2rem;
+	height: 100%;
+	background-color: lightgray;
+	z-index: 100;
+	transition: transform ease-in-out 0.5s;
+
+
+	.exit{
+		opacity: 0;
+		position: absolute;
+		top: 1rem;
+		left: 1rem;
+		cursor: pointer;
+		visibility: hidden;
+		transition: opacity ease-in-out 0.5s;
+
+		&:active{
+			transform: scale(0.90);
+		}
+	}
+
+
+	&.reveal{
+			box-shadow: -0.25rem 0 0.5rem darkgray;
+			transform: translateX(calc(100vw - 3rem));
+
+			.exit{
+				opacity: 1;
+				visibility: visible;
+			}
+	}
+}
+
+.doc{
+	position: absolute;
+	z-index: 50;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
 }
