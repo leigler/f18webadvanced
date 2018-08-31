@@ -1,0 +1,33 @@
+---
+---
+
+*{
+	padding: 0;
+	margin: 0;
+	font-weight: 300;
+}
+
+html{
+	background-color: yellow;
+}
+
+
+body{
+	font-size: 25px;
+	font-family: 'EB Garamond', serif;
+	text-align: center;
+	color: black;
+	padding-top: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	font-size: 2rem;
+}
+
+a{
+	background-color: blue;
+	color: white;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	text-decoration: none;
+}
