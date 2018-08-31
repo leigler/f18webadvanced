@@ -142,5 +142,7 @@ a, em{
 }
 
 @media(max-width: 768px) {
-	display: none;
+	.doc{
+		display: none;
+	}
 }
