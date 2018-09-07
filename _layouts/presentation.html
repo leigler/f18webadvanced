@@ -17,7 +17,8 @@
 
 </head>
 <body>
-	{% include header.html %}
-	{% include iframe.html %}
+	<div class="menu">
+		{{ page.content |markdownify }}
+	</div>
 </body>
 </html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Advanced: Javascript</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
+
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i|IBM+Plex+Mono:200" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../assets/main.css">
+
+	<script type="text/javascript" src="../assets/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="../assets/main.js"></script>
+
+	{% include noscript.html %}
+
+</head>
+<body>
+	<div class="menu">
+		{{ page.content |markdownify }}
+	</div>
+	
+</body>
+</html>

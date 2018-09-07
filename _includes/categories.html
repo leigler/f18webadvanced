@@ -1,0 +1,29 @@
+<div class="column">
+	<h1>Readings</h1>
+	<ul>
+		{% for reading in page.readings %}
+			<li>{{ reading | markdownify }}</li>
+		{% endfor %}	
+	</ul>
+	<h1>Resources</h1>
+	<ul>
+		<li><a href="https://www.are.na/lukas-eigler-harding/f18-webadvanced">Class&rsquo; Are.na</a></li>
+		<li><a href="/assets/PSAM_2599_A_EIGLER-HARDING_FA18.pdf">Class Syllabus</a></li>
+	</ul>
+	
+</div
+><div class="column">
+	<h1>Assignments</h1>
+	<ul>
+		{% for assignment in page.assignments %}
+			<li>{{ assignment | markdownify }}</li>
+		{% endfor %}	
+	</ul>
+
+	<h1>Lectures</h1>
+	<ul>
+	{% for lecture in site.posts %}
+		<li><p><a href="{{ lecture.url }}">{{ lecture.title }}</a></p></li>
+	{% endfor %}
+	</ul>
+</div>

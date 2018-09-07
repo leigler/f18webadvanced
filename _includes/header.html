@@ -3,7 +3,10 @@
 	{{ page.title | markdownify }}
 	{{ page.location | markdownify }}
 	{{ page.email | markdownify }}
-	
 	{{ page.content | markdownify }}
+
+
+	{% include categories.html %}
+
 
 </div>
