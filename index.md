@@ -2,7 +2,7 @@
 
 layout: home
 title: "# Web Advanced: Javascript, 2018"
-location: "# Fridays, 12:10pm - 2:50pm<br>Parsons 2 W 13th"
+location: "# Fridays, 12:10pm - 2:50pm<br>6 East 16th Street, Rm. 1206"
 email: "# eigll343@newschool.edu"
 readings: [
 	"[Prof. Dr. Style](http://contemporary-home-computing.org/prof-dr-style/) by Olia Lialina", 
@@ -15,11 +15,63 @@ assignments: [
 	"[Assignment 1: Index](/assignment1)",
 	"[Assignment 2: Pattern](/assignment2)"
 ]
-
+resources: [
+						{
+							title: "Raw Text to HTML Converter",
+							url: "https://www.textfixer.com/html/"
+						},
+						{
+							title: "Stack Overflow",
+							url: "https://stackoverflow.com/"
+						},
+						{
+							title: "w3 schools",
+							url: "https://www.w3schools.com/"
+						},
+						{
+							title: "Learn CSS",
+							url: "http://learnlayout.com/"
+						},
+						{
+							title: "Code Academy — HTML",
+							url: "https://www.codecademy.com/learn/learn-html"
+						},
+						{
+							title: "Shaw Howe, Learn HTML/CSS",
+							url: "https://learn.shayhowe.com/"
+						},
+						{
+							title: "Code Academy – CSS",
+							url: "https://www.codecademy.com/learn/learn-css"
+						},
+						{
+							title: "Code Academy - Javascript",
+							url: "https://www.codecademy.com/learn/learn-javascript"
+						},
+						{
+							title: "Code Academy - JQuery",
+							url: "https://www.codecademy.com/learn/learn-jquery"
+						},
+						{
+							title: "Dev Docs",
+							url: "http://devdocs.io/"
+						}
+					]
 ---
 
 {:.syllabus}
 # *Class Syllabus*
+
+## September 14
+
+In-Class
+- For Loop Review + [CSS Form](example) Demo
+- Readings Discussion
+- Assignment 2: In-Class Work Session
+- Assignment 2: Group Critiques
+
+Assignment
+Week 2 of [Assignment 2](assignment2)
 
 ## September 7
 

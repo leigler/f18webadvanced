@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+		
+		html{
+			background-color: black;
+		}
+
+		html, body, h1, h2, h3, h4, h5, h6, p, ul, li{
+			padding: 0;
+			margin: 0;
+		}
+
+		.container{
+			position: relative;
+			display: inline-block;
+			width: 11.11vw;
+			height: 11.11vw;	
+		}
+
+		.circle{
+			width: auto;
+			height: auto;
+			vertical-align: middle;
+			position: absolute;
+			top:50%;
+			left:50%;
+			transform: translate(-50%, -50%);
+			background-color: white;
+			border-radius: 50%;
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<div id="wrapper"></div>
+
+	<script type="text/javascript">
+		//javascript:
+		
+		// math
+
+		var circleDiameter = 0
+		var direction = false;
+
+		for (var i = 0; i < 900; i++) {
+			
+			var container = document.createElement("div")
+			container.className = "container"
+
+			if(i % 5 == 0){ //if i is a multiple of 5
+				if(direction){
+					//direction = false
+				}else{
+					//direction = true
+					circleDiameter = 1;
+				}
+
+				direction = !direction;
+			}
+
+			if(direction){
+				circleDiameter++;
+			}else{
+				circleDiameter--;
+			}
+
+			var opacity = circleDiameter / 5;
+
+			//if(circleDiameter != 1){
+				container.innerHTML = `
+					<div style="opacity: ${opacity}; width:${ circleDiameter }vw; height:${ circleDiameter }vw;" class="circle" ></div>
+
+				`
+				document.getElementById("wrapper").appendChild(container)	
+			//}	
+		}
+
+
+
+		//one option: a for loop within a for loop
+		//var direction = false;
+		// for (var i = 0; i < 10; i++) {
+		// 	// number of times we want to count up
+		// 	var circleDiameter = 0
+
+
+		// 	if (direction) {
+		// 		var startingpoint = -10
+		// 		var endpoint = 0
+		// 	}else{
+		// 		var startingpoint = 0
+		// 		var endpoint = 10
+		// 	}
+
+		// 	for (var j = startingpoint; j < endpoint; j++) {
+		// 		// how much we want to count up to repeatedly 
+					
+		// 		var container = document.createElement("div")
+		// 		container.className = "container"
+
+		// 		if (direction) {
+		// 			circleDiameter--;
+		// 		}else{
+		// 			circleDiameter++;
+		// 		}
+
+
+		// 		container.innerHTML = `
+		// 			<div style="width:${ circleDiameter }vw; height:${ circleDiameter }vw;" class="circle" ></div>
+
+		// 		`
+		// 		document.getElementById("wrapper").appendChild(container)		
+
+		// 	}	
+
+		// 	if(direction){
+		// 		direction = false;
+		// 	}else{
+		// 		direction = true;
+		// 	}
+		// }
+
+
+	</script>
+</body>
+</html>

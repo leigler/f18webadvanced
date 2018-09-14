@@ -73,7 +73,6 @@ ul, li{
 }
 
 li{
-		width: 50%;
 		margin-bottom: 0.25rem;
 		&:before{
 			content: "";
@@ -86,6 +85,14 @@ li{
 			background-color: maroon;
 		}
 	}
+
+.column{
+
+	li{
+		width: 50%;
+	}
+
+}
 
 
 code.highlighter-rouge, pre{
@@ -117,6 +124,7 @@ pre{
 		font-family: 'IBM Plex Mono', monospace;
 		line-height: 1.5rem;
 		font-style: light;
+		width: 100%;
 	}
 }
 
@@ -185,6 +193,11 @@ a, em{
 	padding-right: 0.5rem;
 	text-decoration: none;
 	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+a:hover{
+	background-color: black;
 }
 
 .syllabus{
@@ -195,6 +208,7 @@ a, em{
 .menu{
 	position: relative;
 	width: 100%;
+	overflow-x: hidden;
 	min-height: 100vh;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
@@ -293,6 +307,9 @@ a, em{
 		}
 
 		li{
+			display: inline-block;
+			vertical-align: top;
+			width: 49%;
 			line-height: 1.5rem;
 			p{
 				line-height: 1rem;
@@ -303,6 +320,7 @@ a, em{
 				height: 0.75rem;
 				border-radius: 0.375rem;
 				margin-bottom: 0rem;
+				margin-right: 0.2rem;
 			}
 		}
 	}
