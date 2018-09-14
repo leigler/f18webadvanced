@@ -108,7 +108,7 @@ students: [
 						},
 						{
 							title: "Sarah Mcnutt",
-							url: "https://mcnus603.github.io/fall2018/"
+							url: "https://mcnus603.github.io/fall2018/	"
 						},
 						{
 							title: "Lee Jun Park",
@@ -141,8 +141,11 @@ In-Class
 - Assignment 2: In-Class Work Session
 - Assignment 2: Group Critiques
 
+Resources
+- In-class [for loop w/ array](example-gradient), [for loop pattern](example-array)
+
 Assignment
-Week 2 of [Assignment 2](assignment2)
+- Week 2 of [Assignment 2](assignment2)
 
 ## September 7
 
