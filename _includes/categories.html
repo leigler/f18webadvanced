@@ -1,4 +1,11 @@
 <div class="column">
+	<h1>Students</h1>
+	<ul>
+	{% for student in page.students %}
+		<li><p><a href="{{ student.url }}">{{ student.title }}</a></p></li>
+	{% endfor %}
+	</ul>
+
 	<h1>Readings</h1>
 	<ul>
 		{% for reading in page.readings %}

@@ -55,8 +55,79 @@ resources: [
 						{
 							title: "Dev Docs",
 							url: "http://devdocs.io/"
+						},
+						{
+							title: "Centering Cheatsheet",
+							url: "https://css-tricks.com/centering-css-complete-guide/"
+						},
+						{
+							title: "The Shapes of CSS",
+							url: "https://css-tricks.com/examples/ShapesOfCSS/"
 						}
 					]
+students: [
+						{
+							title: "Dahee Byun",
+							url: "https://daheebyun.github.io/F18/"
+						},
+						{
+							title: "Xingman Cheng",
+							url: "https://xingmann.github.io/Fall18/index.html"
+						},
+						{
+							title: "Evelin Fung",
+							url: "http://www.evelinfung.com/f18js/index.html"
+						},
+						{
+							title: "Carolyn Alexandra Haitz Olaguivel",
+							url: "https://carolaguivel.github.io"
+						},
+						{
+							title: "Munro Hoberman",
+							url: "https://redmoe.github.io/Web-Advanced-Javascript-Fall-2018/"
+						},
+						{
+							title: "Se Jung",
+							url: "https://hwans015.github.io/WebAdvanced/"
+						},
+						{
+							title: "Rian Ishikawa",
+							url: "https://kyoheria.github.io/web_fall2018/"
+						},
+						{
+							title: "Suji Kang",
+							url: "https://kangs041.github.io/webadvanced/"
+						},
+						{
+							title: "Celine Kim",
+							url: "https://kimc457.github.io/project-index/"
+						},
+						{
+							title: "Emily Hue Foo Li",
+							url: "https://lie771.github.io/fall18js/"
+						},
+						{
+							title: "Sarah Mcnutt",
+							url: "/"
+						},
+						{
+							title: "Lee Jun Park",
+							url: "/"
+						},
+						{
+							title: "Sanha Park",
+							url: "/"
+						},
+						{
+							title: "Simon Sciacovelli",
+							url: "https://simonesciacovelli.github.io/javascriptadvanced/dex.html"
+						},
+						{
+							title: "Yasemin Varlik",
+							url: "https://yaseminvarlik.github.io/yaseminjavascript/"
+						}
+					]
+
 ---
 
 {:.syllabus}
