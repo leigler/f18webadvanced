@@ -108,7 +108,7 @@ students: [
 						},
 						{
 							title: "Sarah Mcnutt",
-							url: "/"
+							url: "https://mcnus603.github.io/fall2018/"
 						},
 						{
 							title: "Lee Jun Park",
