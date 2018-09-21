@@ -51,6 +51,7 @@ for (var i = 0; i < 100; i++) { //standard for loop to iterate for 200 console l
 
 
         document.getElementById("wrapper").appendChild(weather)
+        window.scrollTo(0,document.body.scrollHeight);
         
     }, snowTimer); // snowTimer determines when the sleet string is released
     snowTimer += 70; // in order to "animate", each sleet string is released +70 milliseconds after the previous one.
