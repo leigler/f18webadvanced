@@ -8,6 +8,7 @@ readings: [
 	"[Prof. Dr. Style](http://contemporary-home-computing.org/prof-dr-style/) by Olia Lialina", 
 	"[On Weaving](http://s3.amazonaws.com/arena-attachments/2597972/2065c555bbd04503da9df3d3ec5052dc.pdf?1535137003) by Anni Albers", 
 	"[Against Ordinary Language: The Language of the Body](http://s3.amazonaws.com/arena-attachments/2598476/32ee9b74216346c153e4600a745e0586.pdf?1535145818) by Kathy Acker", 
+	"[Towards Aesthetic Guidelines for Painting with the Aid of a Computer](https://s3.amazonaws.com/2b.andydayton.com/readings/molnar-aesthetic.pdf) by Vera Molnár",
 	"[Benevolent Deception in Human Computer Interaction](http://www.cond.org/deception.pdf) by Eytan Adar, Desney S. Tan, and Jaime Teevan", 
 	"[Something is wrong on the internet](https://medium.com/@jamesbridle/something-is-wrong-on-the-internet-c39c471271d2) by James Bridle" 
 	]
@@ -133,6 +134,18 @@ students: [
 {:.syllabus}
 # *Class Syllabus*
 
+## September 21
+
+In-Class
+- [Javascript Lecture: Timing and Randomness](jsbasics2)
+- Group Critiques, In-Class Exercise w/ `setTimeout`
+
+Assignment
+- Week 3 of [Assignment 2](assignment2#week-3)
+
+Readings: 
+- [Towards Aesthetic Guidelines for Painting with the Aid of a Computer](https://s3.amazonaws.com/2b.andydayton.com/readings/molnar-aesthetic.pdf) by Vera Molnár
+
 ## September 14
 
 In-Class
@@ -142,10 +155,10 @@ In-Class
 - Assignment 2: Group Critiques
 
 Resources
-- In-class [for loop w/ array](example-gradient), [for loop pattern](example-array)
+- In-class [for loop w/ array](example-array), [for loop pattern](example-gradient)
 
 Assignment
-- Week 2 of [Assignment 2](assignment2)
+- Week 2 of [Assignment 2](assignment2#week-2-part-24)
 
 ## September 7
 

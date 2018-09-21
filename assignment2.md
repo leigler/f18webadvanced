@@ -7,7 +7,18 @@ title: "Assignment 2: Pattern"
 ---
 
 # [X](/)
-# Assignment 1: Pattern
+# Assignment 2: Pattern
+
+## Week 3 (Part 3/4)
+
+*For next week* (Sept 28) Animate your pattern using the `setTimeout` function. Carefully consider what design changes you should implement now that your site is no longer static. If you are interested in introducing a random element to your pattern, feel free to. 
+
+Questions to consider: 
+- Does your unit overwrite itself, or is it additive?
+- How fast does your pattern reveal itself, and in what stages?
+- Does the scale of your module shift now that it is animating? 
+
+
 
 ## Week 2 (Part 2/4)
 
@@ -20,16 +31,6 @@ Questions to consider:
 - Does the scroll animate your pattern at all? 
 - What aspects of your module stay consistent and create cohesiveness and rhythm across the animation? What aspects create inconsistencies? 
 
-
-<!-- Animate your pattern using the `setTimeout` function. Carefully consider what design changes you should implement now that your site is no longer static. If you are interested in introducing a random element to your pattern, feel free to. 
-
-Questions to consider: 
-- At what pace does your pattern reveal itself?
-- Does your unit overwrite itself, or is it additive?
-- Does the scale of your module shift now that it is animating? 
-- What aspects of your module stay consistent and create cohesiveness and rhythm across the animation? What aspects create inconsistencies? 
-
- -->
 
 ## Week 1 (Part 1/4)
 

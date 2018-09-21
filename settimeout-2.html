@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        
+
+        *{
+            text-align: center;
+            font-family: monospace;
+        }
+
+        .cloud{
+            font-size: 150px;
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="cloud">☁️</div>
+<div id="wrapper"></div>
+
+
+<script type="text/javascript">
+    
+var snowTimer = 0; //declare our timer for setTimeout
+
+for (var i = 0; i < 100; i++) { //standard for loop to iterate for 200 console lines
+    setTimeout(function() { // introduce the setTimout function
+
+        var weather = document.createElement("div");
+            weather.className = "weater";
+
+        var snow = ""; //empty string that will be filled below!
+        
+        for (var s = 0; s < 10; s++) { //for loop stating 40 characters per line
+
+            var snowOrRain = Math.random()*100; 
+            // use snowOrRain to determine what combination of ❄, 💧, and " " each line has
+            if (snowOrRain < 33) {
+                snow += "❄️"; //add snow to string
+            }else if (snowOrRain > 33 && snowOrRain < 66){
+                snow += "💧"; //add rain to string
+            }else {
+                snow += " "; //add space to string
+            }
+        }
+
+        weather.innerHTML = snow;
+
+
+        document.getElementById("wrapper").appendChild(weather)
+        
+    }, snowTimer); // snowTimer determines when the sleet string is released
+    snowTimer += 70; // in order to "animate", each sleet string is released +70 milliseconds after the previous one.
+} 
+
+</script>
+
+</body>
+</html>
