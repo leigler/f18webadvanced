@@ -9,6 +9,25 @@ title: "Assignment 2: Pattern"
 # [X](/)
 # Assignment 2: Pattern
 
+## Week 4 (Part 4/4)
+
+*For next week* (Oct 5) Introduce a basic interface into your pattern. Over the next two weeks you will work on this interface and how it might enhance our experience of your pattern. 
+
+The interface is a moment of intervention: it has the opportunity to contextualize (think: brand) your pattern. Think about the examples we looked at today: 
+- [Click Click Click](https://clickclickclick.click/) by Studio Moniker
+- [Interrupt 3](http://www.irq3.interrupt.xyz/) by This is our work
+- [fonts.google.com](https://fonts.google.com/)
+- [aCCeSsions: The Overview Effect](https://accessions.org/issue-2/)
+
+This interface should allow a viewer/user of your pattern to influence and control your pattern in some way. Consider how the interface might: 
+- manipulate the pattern upon interaction
+- Start/stop the pattern&rsquo;s animation
+- be revealed or hidden at certain points of the pattern
+- change in reaction to the pattern&rsquo;s progress
+- clarify or obscure how the pattern works
+
+
+
 ## Week 3 (Part 3/4)
 
 *For next week* (Sept 28) Animate your pattern using the `setTimeout` function. Carefully consider what design changes you should implement now that your site is no longer static. If you are interested in introducing a random element to your pattern, feel free to. 

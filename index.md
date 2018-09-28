@@ -113,15 +113,11 @@ students: [
 						},
 						{
 							title: "Lee Jun Park",
-							url: "/"
-						},
-						{
-							title: "Sanha Park",
-							url: "/"
+							url: "https://leejunp.github.io/advjs/index.html"
 						},
 						{
 							title: "Simon Sciacovelli",
-							url: "https://simonesciacovelli.github.io/javascriptadvanced/dex.html"
+							url: "https://simonesciacovelli.github.io/javascriptadvanced/index.html"
 						},
 						{
 							title: "Yasemin Varlik",
@@ -133,6 +129,18 @@ students: [
 
 {:.syllabus}
 # *Class Syllabus*
+# [Links & Resources](#class-resources)
+
+## September 28
+
+In-Class
+- [Javascript Lecture: Functions and jQuery](jsadvanced)
+- Discussion: What is an interface? 
+- Discussion: [Towards Aesthetic Guidelines for Painting with the Aid of a Computer](https://s3.amazonaws.com/2b.andydayton.com/readings/molnar-aesthetic.pdf) by Vera Molnár
+- Group Critiques
+
+Assignment
+- Week 4 of [Assignment 2](assignment2#week-4-part-44)
 
 ## September 21
 
@@ -141,7 +149,7 @@ In-Class
 - Group Critiques, In-Class Exercise w/ `setTimeout`
 
 Assignment
-- Week 3 of [Assignment 2](assignment2#week-3)
+- Week 3 of [Assignment 2](assignment2#week-3-part-34)
 
 Readings: 
 - [Towards Aesthetic Guidelines for Painting with the Aid of a Computer](https://s3.amazonaws.com/2b.andydayton.com/readings/molnar-aesthetic.pdf) by Vera Molnár
