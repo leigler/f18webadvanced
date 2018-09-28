@@ -277,6 +277,14 @@ Changes inline CSS values for selected elements:
 
 A full list of how you can manipulate and return CSS values with jQuery can be found [here](https://api.jquery.com/category/css/)
 
+### preparing the DOM in jQuery
+
+```
+  $("document").ready(function(){
+    //once the document has loaded
+  })
+
+```
 
 ### Iteration in jQuery
 
