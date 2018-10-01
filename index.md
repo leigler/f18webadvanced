@@ -134,7 +134,7 @@ students: [
 ## September 28
 
 In-Class
-- [Javascript Lecture: Functions and jQuery](jsadvanced)
+- [Javascript Lecture: Functions and jQuery](jsadvanced), [Demo Files](assets/files/sept-28-js-jquery.zip)
 - Discussion: What is an interface? 
 - Discussion: [Towards Aesthetic Guidelines for Painting with the Aid of a Computer](https://s3.amazonaws.com/2b.andydayton.com/readings/molnar-aesthetic.pdf) by Vera Molnár
 - Group Critiques
