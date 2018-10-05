@@ -9,6 +9,17 @@ title: "Assignment 2: Pattern"
 # [X](/)
 # Assignment 2: Pattern
 
+## Final Preparations
+
+*For next week* (Oct 12), consider the feedback you received today, and resolve your pattern and interface for a full class critique. 
+
+This means: 
+- Be sure that your pattern (in its final form) is uploaded and accessible as a github page from your github repository.
+- Testing your pattern/interface to make sure all the files are properly linked/working on your github.
+- Making sure that your site is responsive to various screen sizes. We will be presenting the pattern sites on the classroom&rsquo;s installed computer/monitor. 
+
+
+
 ## Week 4 (Part 4/4)
 
 *For next week* (Oct 5) Introduce a basic interface into your pattern. Over the next two weeks you will work on this interface and how it might enhance our experience of your pattern. 
