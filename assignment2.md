@@ -14,7 +14,7 @@ title: "Assignment 2: Pattern"
 *For next week* (Oct 12), consider the feedback you received today, and resolve your pattern and interface for a full class critique. 
 
 This means: 
-- Be sure that your pattern (in its final form) is uploaded and accessible as a github page from your github repository.
+- Be sure that your pattern is uploaded and accessible as a github page from your github repository in its final form.
 - Testing your pattern/interface to make sure all the files are properly linked/working on your github.
 - Making sure that your site is responsive to various screen sizes. We will be presenting the pattern sites on the classroom&rsquo;s installed computer/monitor. 
 

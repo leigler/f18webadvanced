@@ -135,7 +135,7 @@ students: [
 In-Class
 
 ### Class Pattern Sharing
-- Today, everyone will set up their laptops with their pattern/interface along with a text-editor open. We will individually rotate clockwise through the patterns, spending approximately 5–7 minutes on each pattern. For each pattern you interact with, take screenshots of your manipulations, and respond to the questions below in the text editor.
+- Today, everyone will set up their laptops with their pattern/interface and a text-editor open. We will individually rotate clockwise through the patterns, spending approximately 8-10 minutes on each pattern. For each pattern you interact with, take screenshots of your manipulations, and respond to the questions below in the text editor.
 - We will then take a moment to review the feedback you were given and upload/send a few (at least two) of your favorite screenshots to eigll343@newschool.edu.
 - Finally, we will review the screenshots and discuss. 
 
