@@ -18,6 +18,13 @@ This means:
 - Testing your pattern/interface to make sure all the files are properly linked/working on your github.
 - Making sure that your site is responsive to various screen sizes. We will be presenting the pattern sites on the classroom&rsquo;s installed computer/monitor. 
 
+Some further things to consider: 
+- how can you indicate that one can click on something
+- how to potentially smooth out transitions between states through `css transition`
+- when does a hover work, when does a click work? 
+- are there aspects that can be simplified that allow the pattern to speak more?
+- can the project become more complex the further one interacts with it? 
+
 
 
 ## Week 4 (Part 4/4)

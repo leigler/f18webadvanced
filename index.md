@@ -14,7 +14,8 @@ readings: [
 	]
 assignments: [
 	"[Assignment 1: Index](/assignment1)",
-	"[Assignment 2: Pattern](/assignment2)"
+	"[Assignment 2: Pattern](/assignment2)",
+	"[Assignment 3: Instrument](/assignment3)"
 ]
 resources: [
 						{
@@ -131,6 +132,17 @@ students: [
 # *Class Syllabus*
 # [Links & Resources](#class-resources)
 
+## October 12
+
+In-Class
+- Final Critique of Assignment 2: Pattern
+- Introduction to Assignment 3: Instrument
+- Javascript lecture: [Cookies](jscookies)
+
+Assignment
+- Week 1 of [Assignment 3: Instrument](assignment3)
+- Read [Benevolent Deception in Human Computer Interaction](http://www.cond.org/deception.pdf) by Eytan Adar, Desney S. Tan, and Jaime Teevan
+
 ## October 5
 In-Class
 
@@ -147,7 +159,7 @@ In-Class
 
 3) Do you wish you had more control over the pattern? Explain your answer.
 
-4) What improvements to the interface would you suggest? (Is there anything that is unclear, or behaves in an unexpected way?)
+4) What improvements to the interface would you suggest? (Is there anything that is unclear or behaves in an unexpected way?)
 
 
 <br>Assignment
