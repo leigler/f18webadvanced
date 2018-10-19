@@ -132,6 +132,16 @@ students: [
 # *Class Syllabus*
 # [Links & Resources](#class-resources)
 
+## October 19
+In-Class
+- Review Reading [Benevolent Deception](http://www.cond.org/deception.pdf)
+- Javascript lecture: [Cookies](jscookies)
+- Review Assignment 3
+- Javascript lecture: [Javascript Libraries](libraries)
+
+Assignment
+- Week 2 of [Assignment 3](assignment3#week-2)
+
 ## October 12
 
 In-Class
@@ -140,7 +150,7 @@ In-Class
 - Javascript lecture: [Cookies](jscookies)
 
 Assignment
-- Week 1 of [Assignment 3: Instrument](assignment3)
+- Week 1 of [Assignment 3: Instrument](assignment3#week-1)
 - Read [Benevolent Deception in Human Computer Interaction](http://www.cond.org/deception.pdf) by Eytan Adar, Desney S. Tan, and Jaime Teevan
 
 ## October 5

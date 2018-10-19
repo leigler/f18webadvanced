@@ -10,6 +10,11 @@ title: "Assignment 3: Instrument"
 # Assignment 3: Instrument
 
 
+## Week 2
+
+For October 26, choose a direction based on the feedback you received today and begin to develop a prototype. Select a javascript library (see list below) to help you implement your project.
+
+
 ## Week 1
 
 For October 19, prepare three distinctly separate directions for this assignment. You may sketch these out in static or dynamic sequence (Illustrator, Sketch, InVision, Principle, XD, code). Your sketches should clearly communicate what information the website catalogues, and how the website becomes customized over multiple visits. Be prepared to present and discuss each of your directions.
