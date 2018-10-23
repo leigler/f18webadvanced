@@ -33,13 +33,100 @@
 		
 		//your "paperscript" goes below
 
+		var height = view.size.height;
+		var width = view.size.width;
+
+
+
+		var newLine = new Path();
+		newLine.strokeColor = 'red';
+		newLine.closed = true;
+		newLine.fillColor = "red";
+
+		var lineArray = [1, 3];
+
+		newLine.add(new Point(20, 40));
+		newLine.add(new Point(width/4, height/4));
+		newLine.add(new Point(100, 40));
+		newLine.add(new Point(width/2, height/2));
+			
+		//console.log(newLine.segments)
+
+
+		var newCircle = new Path.Circle(new Point(300,300), 50);
+
+		newCircle.strokeColor = "blue";
+		newCircle.fillColor = "green";
+		newCircle.opacity = 0.5;
+
+
+		var point = new Point(20, 20);
+		var size = new Size(60, 60);
+		var newRect = new Path.Rectangle(point, size);
+		newRect.fillColor = "yellow";
+
+		console.log(newCircle.position);
+		
+
+		function onMouseMove(event){
+
+			var mousePosition = event.point.clone();
+
+			var x = mousePosition.x;
+			var y = mousePosition.y;
+
+			newLine.segments[0].point.x = x + 10;
+			newLine.segments[0].point.y = y + 20;
+
+			newLine.segments[2].point.x = x + 50;
+			newLine.segments[2].point.y = y + 100;
+
+			newCircle.position = new Point (x,y);
+
+			console.log(event.delta)
+
+		}
+
+		var color = true;
+
+		function onMouseDown(event){
+
+			var mousePosition = event.point.clone();
+			var x = mousePosition.x;
+			var y = mousePosition.y;
+
+			newLine.add(new Point(x,y));
+
+			if(color){
+				newLine.fillColor = "transparent";
+				color = false;
+			}else{
+				newLine.fillColor = "red";
+
+				color = true;
+			}	
+		}
+
+		function onResize(event){
+
+			height = view.size.height;
+			width = view.size.width;
+
+		
+			newLine.segments[1].point.x = width/4;
+			newLine.segments[1].point.y = height/4;
+			
+			newLine.segments[3].point.x = width/2;
+			newLine.segments[3].point.y = height/2;
+			
+		}
 
 	</script>
 
 </head>
 <body>
 
-	<canvas id="paperjsCanvas" resize="true"></canvas>
+	<canvas id="paperjsCanvas" resize="true" ></canvas>
 
 
 </body>

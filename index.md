@@ -135,9 +135,9 @@ students: [
 ## October 19
 In-Class
 - Review Reading [Benevolent Deception](http://www.cond.org/deception.pdf)
-- Javascript lecture: [Cookies](jscookies)
+- Javascript lecture: [Cookies](jscookies), In-class example: Cookie [Demo](assets/files/cookie-inclass.zip)
 - Review Assignment 3
-- Javascript lecture: [Javascript Libraries](libraries)
+- Javascript lecture: [Javascript Libraries](libraries), In-class example: Paper.js [Demo](assets/files/paper-js-inclass.zip)
 
 Assignment
 - Week 2 of [Assignment 3](assignment3#week-2)
