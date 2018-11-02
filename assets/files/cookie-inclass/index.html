@@ -38,33 +38,122 @@
 </head>
 <body>
 
+	<!-- 
+		
+		- create a global variable
+		- check if cookie exists
+		- if cookie exists, populate site according to cookie
+
+		- upon every interaction, update the global variable and push it to the cookie
+
+
+	 -->
+
 	<div class="container"></div>
 
 	<script type="text/javascript">
 		
-		var allCircles = [],
-				circle = "<div class='circle'></div>"; // create an empty array (allCircles) and a string to repeatedly add to the array
 
+		var singleValue = 2;
 		
-		if (Cookies.getJSON('allCircles')) { // check if there is a cookie named "allCircles"
+		if (Cookies.get('singleValue')) { // check if there is a cookie named "allCircles"
+
+			//Cookies.set('name', 'value', { expires: 7 });
+
+			singleValue = Cookies.get('singleValue');
 
 			console.log("there are cookies!");
-			allCircles = Cookies.getJSON('allCircles'); // if there is a cookie named "allCircles", update existing array to reflect this
+			//allCircles = Cookies.getJSON('allCircles'); // if there is a cookie named "allCircles", update existing array to reflect this
 
-			for (var i = 0; i < allCircles.length; i++) {
-				$(".container").append(allCircles[i]); // cycle through (updated) array and populate the DOM with the circles
+		}
+
+		if(singleValue >= brand.length){
+			singleValue = brand.length;
+		}
+
+		for (var i = 0; i < singleValue; i++) {
+			$(".container").append(i); // cycle through (updated) array and populate the DOM with the circles
+		}
+
+		setInterval(function(){ 
+
+			// updating the cookie
+			singleValue++;
+			Cookies.set('singleValue', singleValue, { expires: 7 });
+
+		}, 1000);
+
+
+		var budget = 3000;
+
+		if(Cookies.get('budgetCookie')){
+
+			budget = Cookies.get('budgetCookie');
+
+		}
+
+		$("#budget").innerHTML("$" + budget);
+
+		$(".buy").click(function(){
+
+			// get value of product
+			// then subtract the product price from overall budget
+			budget = budget - price;
+			$("#budget").innerHTML("$" + budget);
+
+			Cookie.set(budgetCookie, budget, {expires : 10})
+
+		})
+
+
+
+		var cart = [];
+
+		// [
+		// 	["adidas", 5],
+		// 	["nike", 3],
+		// 	["nike", 2]
+		// ]
+
+		// at the cart page
+		if(Cookies.getJSON('cartCookie')){
+
+			// the cart cookie only saves the "index path" with which you can navigate to the full JSON file ["adidas", 5]
+
+			// if it exists, update cart with a for loop
+
+			for (var i = 0; i < cart.length; i++) {
+				
+				var thisBrand = [i][0];
+				var productIndex = [i][1];
+				var product = brands.thisBrand[productIndex]
+				// product title, price, image url
+
+				$(".cart").append(yourString)
+
 			}
 		}
 
+		// add to cart
+		$(".buy").click(function(){
 
-		$("body").click(function(){
-			$(".container").append(circle); // add circle to DOM
-			allCircles.push(circle); // add circle to array 
-			Cookies.set('allCircles', allCircles, {expires: 10}); // add array of circles to cookie
+			
+			// save value of product to cartCookie
+
+			var brand = $(this).attr("data-brand") // adidas
+			var productIndex = $(this).attr("data-index") // 5
+
+			console.log(brand, productIndex)
+
+
+
 		})
 		
 
 	</script>
+
+	<div class="buy" data-brand="adidas" data-index="5" ></div>
+
 </body>
 </html>
 

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js apis</title>
+
+	<style type="text/css">
+		
+
+
+	</style>
+
+	<script type="text/javascript" src="assets/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="assets/jquery.query-yql.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+			// ny times
+			var statement = "select * from feed where url='http://rss.nytimes.com/services/xml/rss/nyt/ArtandDesign.xml'"; // here you link the url you need
+
+	    $.queryYQL(statement, "json", undefined, function (data) { //function taken from the query-yql library 
+
+	      $("#times").append("<h1>The New York Time: Art and Design RSS Feed</h1>") //append title of rss feed
+
+        for (var i = 0; i < data.query.results.item.length; i++) { // for each result:
+
+        //console.log(data.query.results.item[i]) // console log the result's object
+
+        $("#times").append(`
+        		<h2>${ data.query.results.item[i].title }</h2>
+        		<h3>${ data.query.results.item[i].pubDate }</h3>
+        		<p>${ data.query.results.item[i].description }</p>
+        	`)
+        }
+	    })
+
+
+	    //$.get requests:
+
+	    // are.na
+
+	    /*
+	    $.get( "http://api.are.na/v2/channels/f18-web-advanced-potential", function( data ) {
+	      //$( "#arena" ).html( data );
+	      //console.log(data)
+
+	    });
+
+	    */
+
+	    
+	    //openweather map
+
+	    /*
+	    $.get( "http://api.openweathermap.org/data/2.5/weather?id=5128638&APPID=2ef957d7223cdcc456536d6972b9f272", function( data ) {
+	      //$( "#openweather" ).html( data );
+	     	//console.log(data)
+
+	    });
+
+	    */
+
+
+	    /*
+
+				{
+			    "id": 5128638,
+			    "name": "New York",
+			    "country": "US",
+			    "coord": {
+			      "lon": -75.499901,
+			      "lat": 43.000351
+			    }
+			  }
+
+
+	    */
+
+		})
+
+	</script>
+
+</head>
+<body>
+
+	<div id="times"></div>
+	<div id="arena"></div>
+	<div id="opeanweather"></div>
+
+</body>
+</html>

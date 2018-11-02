@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js apis</title>
+
+	<style type="text/css">
+		
+
+
+	</style>
+
+	<script type="text/javascript" src="assets/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="assets/jquery.query-yql.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+
+			// $.queryYQL:
+				// ny times
+			var statement = "select * from feed where url='http://rss.nytimes.com/services/xml/rss/nyt/ArtandDesign.xml'"; // here you link the url you need
+
+	    $.queryYQL(statement, "json", undefined, function (data) { //function taken from the query-yql library 
+	    	console.log(data)
+        
+	    })
+
+
+	    //$.get requests:
+	    	// are.na
+	    $.get( "http://api.are.na/v2/channels/f18-web-advanced-potential", function( data ) {
+	      console.log(data)
+	    });
+
+	    
+
+
+		})
+
+	</script>
+
+</head>
+<body>
+
+	<div id="times"></div>
+	<div id="arena"></div>
+	<div id="opeanweather"></div>
+
+</body>
+</html>

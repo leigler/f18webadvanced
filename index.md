@@ -10,7 +10,8 @@ readings: [
 	"[Against Ordinary Language: The Language of the Body](http://s3.amazonaws.com/arena-attachments/2598476/32ee9b74216346c153e4600a745e0586.pdf?1535145818) by Kathy Acker", 
 	"[Towards Aesthetic Guidelines for Painting with the Aid of a Computer](https://s3.amazonaws.com/2b.andydayton.com/readings/molnar-aesthetic.pdf) by Vera Molnár",
 	"[Benevolent Deception in Human Computer Interaction](http://www.cond.org/deception.pdf) by Eytan Adar, Desney S. Tan, and Jaime Teevan", 
-	"[Something is wrong on the internet](https://medium.com/@jamesbridle/something-is-wrong-on-the-internet-c39c471271d2) by James Bridle" 
+	"[Something is wrong on the internet](https://medium.com/@jamesbridle/something-is-wrong-on-the-internet-c39c471271d2) by James Bridle",
+	"[Publics and Counterpublics](http://s3.amazonaws.com/arena-attachments/2432496/fbfdb2a6cf31059bfd01889de8fc98b8.pdf?1531646992) by Michael Warner"
 	]
 assignments: [
 	"[Assignment 1: Index](/assignment1)",
@@ -132,6 +133,26 @@ students: [
 # *Class Syllabus*
 # [Links & Resources](#class-resources)
 
+## November 2
+In-Class
+- Assignment 3, Final Review
+- Introduction to [Javascript APIs](jsapis)
+- Introduction to [Assignment 4: Final](assignment4#brief)
+
+Assignment
+- Week 1 of [Assignment 4](assignment4#week-1)
+
+Reading
+- [Publics and Counterpublics](http://s3.amazonaws.com/arena-attachments/2432496/fbfdb2a6cf31059bfd01889de8fc98b8.pdf?1531646992) by Michael Warner
+
+
+## October 26
+In-Class
+- mid-semester check-ins
+
+Assignment
+- Finish [Assignment 3](assignment3)
+
 ## October 19
 In-Class
 - Review Reading [Benevolent Deception](http://www.cond.org/deception.pdf)
@@ -196,7 +217,7 @@ In-Class
 Assignment
 - Week 3 of [Assignment 2](assignment2#week-3-part-34)
 
-Readings: 
+Readings
 - [Towards Aesthetic Guidelines for Painting with the Aid of a Computer](https://s3.amazonaws.com/2b.andydayton.com/readings/molnar-aesthetic.pdf) by Vera Molnár
 
 ## September 14
