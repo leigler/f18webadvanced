@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js apis</title>
+	<style type="text/css">
+		
+	.title{
+		text-align: center;
+		color: red;
+		padding-top: 40px;
+	}
+
+	.images{
+		width: 50%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	</style>
+
+	<script type="text/javascript" src="assets/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="assets/jquery.query-yql.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+
+			// $.queryYQL:
+
+			//craigslist:
+
+			var statement = "select * from feed where url='http://www.craigslist.org/about/best/all/index.rss'";
+			
+	    $.queryYQL(statement, "json", undefined, function (data) { //function taken from the query-yql library 
+
+	    	var craigs = data.query.results.item;
+
+	    	for (var i = 0; i < craigs.length; i++) {
+	    		
+	    		console.log(craigs[i])
+
+	    		$("#craigs").append(`
+	    				<h1>${craigs[i].title[0]}</h1>
+	    				<p>${craigs[i].description}</p>
+
+	    			`)
+
+	    	}
+
+	    })
+
+
+	    // new york times
+	    var nyStatement = "select * from feed where url='http://rss.nytimes.com/services/xml/rss/nyt/ArtandDesign.xml'"; // here you link the url you need
+
+	    $.queryYQL(nyStatement, "json", undefined, function (data) { //function taken from the query-yql library 
+
+	    	var nytArticles = data.query.results.item;
+
+	    	for (var i = 0; i < nytArticles.length; i++) {
+	    		
+	    		console.log(nytArticles[i])	
+
+	    		$("#times").append(`
+
+	    				<h1 class="title">${nytArticles[i].title}</h1>
+	    				<h2>${nytArticles[i].creator}</h2>
+	    				<p>${nytArticles[i].description[0]}</p>
+
+    			`)
+	    	}
+
+	    })
+
+
+		}) // end of document ready
+
+	</script>
+
+</head>
+<body>
+	<h1>New York Times: </h1>
+	<div id="times"></div>
+
+	<h1>Craigslist: </h1>
+	<div id="craigs"></div>
+
+
+</body>
+</html>

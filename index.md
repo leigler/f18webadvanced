@@ -136,7 +136,7 @@ students: [
 ## November 2
 In-Class
 - Assignment 3, Final Review
-- Introduction to [Javascript APIs](jsapis)
+- Introduction to [Javascript APIs](jsapis), [Boilerplate](assets/files/js-apis-boiler.zip), [Working Files](assets/files/js-apis-class.zip)
 - Introduction to [Assignment 4: Final](assignment4#brief)
 
 Assignment
