@@ -133,6 +133,15 @@ students: [
 # *Class Syllabus*
 # [Links & Resources](#class-resources)
 
+## November 9
+In-Class
+- Discuss [Publics and Counterpublics](http://s3.amazonaws.com/arena-attachments/2432496/fbfdb2a6cf31059bfd01889de8fc98b8.pdf?1531646992) by Michael Warner
+- [Javascript APIs](jsapis2), Round 2.
+- Review [Assignment 4](assignment4#brief) in groups.
+
+Assignment
+- Week 2 of [Assignment 4](assignment4#week-2)
+
 ## November 2
 In-Class
 - Assignment 3, Final Review
@@ -239,8 +248,6 @@ Assignment
 Read Anni Albers’ chapter on [Designing as Visual Organization](http://s3.amazonaws.com/arena-attachments/2597972/2065c555bbd04503da9df3d3ec5052dc.pdf?1535137003) and skim through her weaving patterns. Also read [Against Ordinary Language: The Language of the Body](http://s3.amazonaws.com/arena-attachments/2598476/32ee9b74216346c153e4600a745e0586.pdf?1535145818) by Kathy Acker and consider how what she describes relates to patterns, repetition, and design. 
 
 Week 1 of [Assignment 2](assignment2)
-
-
 
 
 ## August 31

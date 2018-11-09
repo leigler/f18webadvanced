@@ -9,6 +9,11 @@ title: "Assignment 4: Final"
 # [X](/)
 # Assignment 4: Final
 
+## Week 2
+
+For next week (November 16):
+- Based on today&rsquo;s feedback, select a design direction and refine it. If you haven&rsquo;t already, begin to test out your chosen API. Try completing an API call and logging the output you need for your project.
+
 ## Week 1
 
 For next week (November 9):
