@@ -136,7 +136,7 @@ students: [
 ## November 9
 In-Class
 - Discuss [Publics and Counterpublics](http://s3.amazonaws.com/arena-attachments/2432496/fbfdb2a6cf31059bfd01889de8fc98b8.pdf?1531646992) by Michael Warner
-- [Javascript APIs](jsapis2), Round 2.
+- [Javascript APIs](jsapis2), Round 2. In-Class Demo Files: [Google Maps API](assets/files/google-api-inclass.zip), [Open Weather Map API](assets/files/js-api-weather.zip)
 - Review [Assignment 4](assignment4#brief) in groups.
 
 Assignment
