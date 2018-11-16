@@ -5,87 +5,67 @@
 
 	<style type="text/css">
 		
+	body{
+		background-color: #ffee00;
+		transition: background-color 0.5s ease-in-out;
+
+	}
+
+	#openweather{
+		position: fixed;
+		width: 200px;
+		height: 2px;
+		background-color: red;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-left: auto;
+		margin-right: auto;
+		transition: transform 0.5s;
+
+	}
+
 
 
 	</style>
 
 	<script type="text/javascript" src="assets/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="assets/jquery.query-yql.min.js"></script>
 
 	<script type="text/javascript">
 		$(document).ready(function(){
 			
-			// ny times
-			var statement = "select * from feed where url='http://rss.nytimes.com/services/xml/rss/nyt/ArtandDesign.xml'"; // here you link the url you need
-
-	    $.queryYQL(statement, "json", undefined, function (data) { //function taken from the query-yql library 
-
-	      $("#times").append("<h1>The New York Time: Art and Design RSS Feed</h1>") //append title of rss feed
-
-        for (var i = 0; i < data.query.results.item.length; i++) { // for each result:
-
-        //console.log(data.query.results.item[i]) // console log the result's object
-
-        $("#times").append(`
-        		<h2>${ data.query.results.item[i].title }</h2>
-        		<h3>${ data.query.results.item[i].pubDate }</h3>
-        		<p>${ data.query.results.item[i].description }</p>
-        	`)
-        }
-	    })
-
-
 	    //$.get requests:
-
-	    // are.na
-
-	    /*
-	    $.get( "http://api.are.na/v2/channels/f18-web-advanced-potential", function( data ) {
-	      //$( "#arena" ).html( data );
-	      //console.log(data)
-
-	    });
-
-	    */
-
-	    
 	    //openweather map
-
-	    /*
+	    
 	    $.get( "http://api.openweathermap.org/data/2.5/weather?id=5128638&APPID=2ef957d7223cdcc456536d6972b9f272", function( data ) {
 	      //$( "#openweather" ).html( data );
 	     	//console.log(data)
 
+	     	var windAngle = data.wind.deg;
+	     	$("#openweather").css({"transform" : "rotate(" + windAngle + "deg)"})
+
+	     	var weather = data.weather[0].main;
+
+	     	console.log(weather)
+
+	     	if(weather == "Rain"){
+	     		$("body").css({"background-color" : "#d6e5ff"})
+
+	     	}else if(weather == "Sunny"){
+	     		$("body").css({"background-color" : "#ffee00"})
+	     	}
+
 	    });
-
-	    */
-
-
-	    /*
-
-				{
-			    "id": 5128638,
-			    "name": "New York",
-			    "country": "US",
-			    "coord": {
-			      "lon": -75.499901,
-			      "lat": 43.000351
-			    }
-			  }
-
-
-	    */
-
 		})
 
 	</script>
 
 </head>
 <body>
-
-	<div id="times"></div>
-	<div id="arena"></div>
-	<div id="opeanweather"></div>
+	<div id="openweather"></div>
 
 </body>
 </html>

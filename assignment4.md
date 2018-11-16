@@ -9,6 +9,11 @@ title: "Assignment 4: Final"
 # [X](/)
 # Assignment 4: Final
 
+## Week 3
+For next class (November 30):
+- Continue developing your project&rsquo;s design. Complete a browser-based (built with HTML/CSS/Javascript) prototype of your site so that we can begin to iterate on the UI over the final few classes after break.
+- If you don&rsquo;t already, you should have your API call returning and outputting the data you need. If it&rsquo;s easier, feel free to separate this task from your browser-based prototype.
+
 ## Week 2
 
 For next week (November 16):

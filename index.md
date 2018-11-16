@@ -133,6 +133,15 @@ students: [
 # *Class Syllabus*
 # [Links & Resources](#class-resources)
 
+## November 16
+In-Class
+- Assignment 4, General Questions
+- Assignment 4, Individual Check-ins
+
+Assignment
+- Week 3 of [Assignment 4](assignment4#week-3)
+- Have a Happy Thanksgiving Holiday!
+
 ## November 9
 In-Class
 - Discuss [Publics and Counterpublics](http://s3.amazonaws.com/arena-attachments/2432496/fbfdb2a6cf31059bfd01889de8fc98b8.pdf?1531646992) by Michael Warner
