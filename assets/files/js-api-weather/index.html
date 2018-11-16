@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js apis</title>
+
+	<style type="text/css">
+		
+	body{
+		background-color: #ffee00;
+		transition: background-color 0.5s ease-in-out;
+
+	}
+
+	#openweather{
+		position: fixed;
+		width: 200px;
+		height: 2px;
+		background-color: red;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-left: auto;
+		margin-right: auto;
+		transition: transform 0.5s;
+
+	}
+
+
+
+	</style>
+
+	<script type="text/javascript" src="assets/jquery-3.3.1.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+	    //$.get requests:
+	    //openweather map
+	    
+	    $.get( "http://api.openweathermap.org/data/2.5/weather?id=5128638&APPID=2ef957d7223cdcc456536d6972b9f272", function( data ) {
+	      //$( "#openweather" ).html( data );
+	     	//console.log(data)
+
+	     	var windAngle = data.wind.deg;
+	     	$("#openweather").css({"transform" : "rotate(" + windAngle + "deg)"})
+
+	     	var weather = data.weather[0].main;
+
+	     	console.log(weather)
+
+	     	if(weather == "Rain"){
+	     		$("body").css({"background-color" : "#d6e5ff"})
+
+	     	}else if(weather == "Sunny"){
+	     		$("body").css({"background-color" : "#ffee00"})
+	     	}
+
+	    });
+		})
+
+	</script>
+
+</head>
+<body>
+	<div id="openweather"></div>
+
+</body>
+</html>
