@@ -133,6 +133,14 @@ students: [
 # *Class Syllabus*
 # [Links & Resources](#class-resources)
 
+## November 30
+In-Class
+- Course Evaluations
+- Assignment 4, User Testing and Individual Meetings
+
+Assignment
+- Week 4 of [Assignment 4](assignment4#week-4)
+
 ## November 16
 In-Class
 - Assignment 4, General Questions

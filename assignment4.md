@@ -9,6 +9,11 @@ title: "Assignment 4: Final"
 # [X](/)
 # Assignment 4: Final
 
+## Week 4
+For next class (December 7):
+- Design: Take today&rsquo;s feedback and use it to refine your design. Consider feedback on the site&rsquo;s flow, usability, and visual strategy.
+- Development: Your API call should be returning and placing content into your site. Spend the next week refining your design and, if you haven&rsquo;t already, introducing responsive CSS values and `@media` [queries](https://medium.com/beginners-guide-to-mobile-web-development/media-queries-54a1a463356f).
+
 ## Week 3
 For next class (November 30):
 - Continue developing your project&rsquo;s design. Complete a browser-based (built with HTML/CSS/Javascript) prototype of your site so that we can begin to iterate on the UI over the final few classes after break.
