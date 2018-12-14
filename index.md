@@ -133,6 +133,13 @@ students: [
 # *Class Syllabus*
 # [Links & Resources](#class-resources)
 
+## December 14
+In-Class
+- 🎉 Final Critique! 🎉
+
+Assignment
+- prepare [Assignments 1–4](assignments) for grading (Due Dec 19)
+
 ## December 7
 In-Class
 - Assignment 4, check in
