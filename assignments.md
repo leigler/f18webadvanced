@@ -9,7 +9,7 @@ title: "Assignments 1–4, Grading"
 # [X](/)
 # Assignments 1–4, Grading
 
-For grading, please submit a `.zip` of the final form of each of your assignments.
+For grading, please submit a `.zip` of the final form of each of your assignments. Please send your `.zip` file to eigll343@newschool.edu via a google drive link or a wetransfer.
 
 Your `.zip` should have:
 - your name in the title 
